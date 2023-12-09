@@ -16,7 +16,7 @@ export const ContactForm = () => {
   const contacts = useSelector(state => state.contacts);
 
   const [formContact, setFormContact] = useState({ name: '', number: '' });
-  console.log(contacts);
+
   const handleChange = event => {
     const { name, value } = event.currentTarget;
 
